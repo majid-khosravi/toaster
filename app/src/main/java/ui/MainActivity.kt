@@ -16,12 +16,12 @@ class MainActivity : AppCompatActivity() {
 
         ToasterMessage.showToast(this, "")
 
- /*       R.id.basic_titled_buttons.onClickDebounced {
+   /*     R.id.basic_titled_buttons.onClickDebounced {
             MaterialDialog(this).show {
-                title(R.string.useGoogleLocationServices)
+                title(R.string.useGoogleLocationServices, textColorRes = R.color.colorPrimaryDark, textSizeRes = R.dimen.header_main_text_size_year)
                 message(R.string.useGoogleLocationServicesPrompt)
-                positiveButton(R.string.agree)
-                negativeButton(R.string.disagree)
+                positiveButton(R.string.agree, textColorRes = R.color.colorAccent)
+                negativeButton(R.string.disagree, textColorRes = R.color.colorPrimary)
                 debugMode(debugMode)
                 lifecycleOwner(this@MainActivity)
             }

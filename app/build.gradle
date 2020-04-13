@@ -25,12 +25,6 @@ android {
 
 }
 
-allprojects {
-    repositories {
-        jcenter()
-        maven { url "https://jitpack.io" }
-    }
-}
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
@@ -43,11 +37,18 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
     implementation project(':toasterlibrary')
+//    implementation 'com.github.majid-khosravi:toaster:v1.0'
 
-//    implementation 'com.github.majid-khosravi:fkv_material_dialogs:fkv-0.0.1'
+//    implementation 'com.github.majid-khosravi:fkv_dialogs:fkv-0.0.15'
 
+//    implementation 'com.github.majid-khosravi.fkv_dialogs:color:fkv-0.0.15'
+//  implementation 'com.github.majid-khosravi.fkv_dialogs:core:fkv-0.0.15'
+//  implementation 'com.github.majid-khosravi.fkv_dialogs:bottomsheets:fkv-0.0.15'
+//  implementation 'com.github.majid-khosravi.fkv_dialogs:datetime:fkv-0.0.15'
+//  implementation 'com.github.majid-khosravi.fkv_dialogs:files:fkv-0.0.15'
+//  implementation 'com.github.majid-khosravi.fkv_dialogs:input:fkv-0.0.15'
+//  implementation 'com.github.majid-khosravi.fkv_dialogs:lifecycle:fkv-0.0.15'
 
-//      implementation 'com.github.majid-khosravi:fkv_dialogs:fkv-0.0.7'
 
 
 
